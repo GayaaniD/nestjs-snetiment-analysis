@@ -1,3 +1,3 @@
 export class InputText {
-    text: string;
+  text: string;
 }

@@ -2,7 +2,6 @@ import { Controller, Get, Post, Body } from '@nestjs/common';
 import { AppService } from './app.service';
 import { InputText } from './dto/input-text.dto';
 
-
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
